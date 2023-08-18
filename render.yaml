@@ -32,5 +32,8 @@ services:
         # value: alist_
         sync: false
       - key: CDN
-        # value: https://npm.elemecdn.com/alist-web@$version/dist
+        # value: https://cdn.jsdelivr.net/npm/alist-web@$version/dist
+        sync: false
+      - key: DB_SSL_MODE
+        # value: preferred
         sync: false
